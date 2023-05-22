@@ -10,3 +10,12 @@ for(let cont=0; cont < AGREGA_MAX; cont++) {
 }
 
 console.log(numeros);
+
+// Parte 2: Se incrementa en "1" a todos los elementos del Array (vector)
+
+const NUM_A_SUMAR   = 1;
+for (let cont=0; cont < numeros.length;cont++) {
+    numeros[cont] += NUM_A_SUMAR;
+}
+
+console.log(numeros);
