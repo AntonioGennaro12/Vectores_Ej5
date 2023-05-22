@@ -25,3 +25,9 @@ for (let cont=0; cont < numeros.length;cont++) {
 }
 console.log(numeros);
 
+// Parte 4: Se duplican los elementos (solo cada 2) es decir el 1, 3, 5, etc
+// vae la misma constante de la parte 3
+for (let cont=1; cont < numeros.length;cont+=2) {
+    numeros[cont] *= NUM_A_MULTIP;
+}
+console.log(numeros);
